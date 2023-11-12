@@ -1,0 +1,62 @@
+.taskContent {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.concluded {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  padding: 3.27px;
+  color: var(--purple-500);
+}
+
+.concluded:hover {
+  color: var(--purple-300);
+}
+
+.notConcluded {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  padding: 3.27px;
+  color: var(--blue-300);
+}
+
+.notConcluded:hover {
+  color: var(--blue-500);
+}
+
+
+.taskContent p {
+  color: var(--gray-300);
+}
+
+.contentConcluded {
+  text-decoration: line-through;
+}
+
+.delete {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+  padding: 5px 6px;
+}
+
+.delete:hover {
+  background: var(--gray-400);
+  color: var(--red-500);
+}

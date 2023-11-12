@@ -1,0 +1,30 @@
+.empty {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px 8px 0 0;
+  gap: 16px;
+  padding: 64px 24px;
+  margin-top: 1.5rem;
+}
+
+.empty img {
+  height: 3.5rem;
+}
+
+.emptyDescription {
+  
+  display: flex;
+  flex-direction: column;
+  color: var(--gray-300);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.emptyText {
+  font-weight: 700;
+}
